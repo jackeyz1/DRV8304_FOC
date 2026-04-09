@@ -1,0 +1,22 @@
+# Ignore everything
+*
+
+# Allow subdirectories to be traversed
+!*/
+
+# Block junk folders
+.history/
+*-backups/
+fp-info-cache
+
+# Allow KiCad core project files
+!*.kicad_pro
+!*.kicad_sch
+!*.kicad_pcb
+!*.kicad_wks
+!*.kicad_dru
+!*.kicad_sym
+!*.kicad_mod
+
+# Allow this file
+!.gitignore
