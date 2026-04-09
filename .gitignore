@@ -1,6 +1,8 @@
 # Ignore everything
 *
 
+!
+
 # Allow subdirectories to be traversed
 !*/
 
@@ -20,3 +22,4 @@ fp-info-cache
 
 # Allow this file
 !.gitignore
+!*.xlsx
