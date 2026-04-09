@@ -8,6 +8,14 @@
 \f0\fs24 \cf0 # Ignore everything\
 *\
 \
+# Allow subdirectories to be traversed (must come first)\
+!*/\
+\
+# But block these specific folders\
+.history/\
+*-backups/\
+_autosave-*/\
+\
 # Allow KiCad core project files\
 !*.kicad_pro\
 !*.kicad_sch\
@@ -24,9 +32,6 @@
 # Allow fabrication outputs (if you want them tracked)\
 !gerbers/\
 !gerbers/**\
-\
-# Allow subdirectories to be traversed\
-!*/\
 \
 # Allow this file itself\
 !.gitignore}
