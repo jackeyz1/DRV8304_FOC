@@ -23,3 +23,7 @@ fp-info-cache
 # Allow this file
 !.gitignore
 !*.xlsx
+
+#Allow IOC file
+
+!*.ioc
