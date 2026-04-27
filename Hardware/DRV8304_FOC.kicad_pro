@@ -195,7 +195,7 @@
       ],
       "track_widths": [
         0.0,
-        0.15
+        0.1
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -487,7 +487,9 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
+    "pinned_footprint_libs": [
+      "MyLib"
+    ],
     "pinned_symbol_libs": []
   },
   "meta": {
@@ -707,7 +709,7 @@
         "uuid": "c33a25bf-4b2b-452c-9555-f157a19bf71b"
       }
     ],
-    "used_designators": "TP1-9,#PWR45-47,R22,C23-24,Q7",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
