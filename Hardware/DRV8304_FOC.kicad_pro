@@ -50,7 +50,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.3
+          "min_clearance": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -534,7 +534,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "OUTPUT/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "DRV8311_FOC.step",
@@ -653,6 +653,18 @@
           "label": "P/N",
           "name": "P/N",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field7",
+          "name": "Field7",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field6",
+          "name": "Field6",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -711,7 +723,7 @@
         "uuid": "c33a25bf-4b2b-452c-9555-f157a19bf71b"
       }
     ],
-    "used_designators": "",
+    "used_designators": "Y1",
     "variants": []
   },
   "sheets": [
